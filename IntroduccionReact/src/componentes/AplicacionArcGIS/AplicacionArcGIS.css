@@ -1,0 +1,55 @@
+
+.AplicacionArcGIS{
+  width:1100px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(229, 239, 236);
+  border-radius: 15px;
+  color:rgb(42, 49, 46);
+
+  & img{
+    width: 150px;
+    padding-right: 20px;
+  }
+
+  & a{
+    background-color: rgb(32, 32, 69);
+    padding: 10px;
+    color: rgb(179, 217, 230);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top:10px;
+    
+    &:hover{
+      background-color: rgb(59, 123, 102);
+    }
+  }
+
+  & h3{
+    margin:0px
+  }
+
+  & button{
+    background-color: rgb(32, 32, 69);
+    padding: 10px;
+    color: rgb(179, 217, 230);
+    margin-left: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+
+    &:hover{
+      background-color: rgb(59, 123, 102);
+    }
+  }
+
+}
+
+.EjemplosCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

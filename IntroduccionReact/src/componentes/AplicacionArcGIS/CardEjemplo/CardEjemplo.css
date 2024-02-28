@@ -1,0 +1,40 @@
+.CardEjemplo{
+  
+  width: 280px;
+  padding: 20px;
+  margin: 30px;
+  background-color:  rgb(255, 209, 83);
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  & img{
+    width:280px;
+    height: 150px;
+    border-radius: 15px;
+  }
+
+  & h3{
+    color:rgb(42, 49, 46);
+    font-weight: 800;
+    height: fit-content;
+  }
+  
+  & p{
+    color:rgb(77, 74, 74)
+  }
+
+  & a{
+    background-color: rgb(32, 32, 69);
+    padding: 10px;
+    color: rgb(179, 217, 230);
+    text-decoration: none;
+    border-radius: 5px;
+    
+    &:hover{
+      background-color: rgb(59, 123, 102);
+    }
+  }
+}
+
